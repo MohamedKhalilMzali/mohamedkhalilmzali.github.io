@@ -4,7 +4,6 @@ title: FeedBack Machine Writeup - VulnLab
 date: 2024-06-25 17:48 +0000
 tags: vulnlab 
 categories: VulnLab Machines
-image: assets/img/FeedBack/feedback_slide.png
 description: Writeup for FeedBack Machine from VulnLab 
 ---
 ### Intial Foothold
