@@ -4,7 +4,7 @@ title: Data Machine Writeup - VulnLab
 date: 2024-06-25 12:07 +0000
 tags: vulnlab
 categories: VulnLab Machines
-image: ../assets/img/Baby/baby_slide.png
+image: assets/img/Baby/baby_slide.png
 description: Writeup for Data Machine from VulnLab 
 ---
 

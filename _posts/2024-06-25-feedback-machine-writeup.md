@@ -4,7 +4,7 @@ title: FeedBack Machine Writeup - VulnLab
 date: 2024-06-25 17:48 +0000
 tags: vulnlab 
 categories: VulnLab Machines
-image: ../assets/img/FeedBack/feedback_slide.png
+image: assets/img/FeedBack/feedback_slide.png
 description: Writeup for FeedBack Machine from VulnLab 
 ---
 ### Intial Foothold
@@ -45,7 +45,7 @@ Which gives us the following output:
 
 In that case, by visiting feedback, we can see an interesting entry point vector, as it accepts two input fields that will then be processed by the server.
 
-![](../assets/img/Feedback/Pasted image 20240301224900.png)
+![](../assets/img/Feedback/Pasted%20image%2020240301224900.png)
 
 We open burp suite, enable proxy interceptor  and capture the request in order to test it on the repeater tab with different parameter values.
 
@@ -115,11 +115,11 @@ sudo: no tty present and no askpass program specified
 
 By pursuing our enumeration process, we stumbled upon a file inside the folder **/opt/tomcat/conf named "tomcat-users.xml"** containing the credentials for the admin user inside the machine 
 
-![](../assets/img/Feedback/Pasted image 20240303231157.png)
+![](../assets/img/Feedback/Pasted%20image%2020240303231157.png)
 
 Using these credentials, we can authenticate as **root** 
 
-![](../assets/img/Feedback/Pasted image 20240303231318.png)
+![](../assets/img/Feedback/Pasted%20image%2020240303231318.png)
 
 
 * We finally find the root flag inside the root folder: 
